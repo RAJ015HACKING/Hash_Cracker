@@ -1,6 +1,6 @@
-#Hash_Cracker
- What is Hash Cracker? 
- Hash Cracker is a custom Python-based security tool designed to crack cryptographic hashes using two popular methods:
+
+What is Hash Cracker? 
+Hash Cracker is a custom Python-based security tool designed to crack cryptographic hashes using two popular methods:
  
 🎯Purpose:---
 i. Hash Cracker helps security professionals, ethical hackers, and penetration testers to:
@@ -69,7 +69,8 @@ Crack mode: Choose (1) Wordlist or (2) Brute Force
 Hash type: Choose from supported types
 Wordlist path or brute-force charset/lengths depending on mode
 
-Brute Force Attack:
-![Hash Cracker Demo](screenshot.png)
-![Screenshot 2025-07-14 230035](https://github.com/user-attachments/assets/9cb2be39-ad3d-480b-b7ac-2d32a265a09e)
+Brute Force Attack Demo:
+
+
+![Screenshot 2025-07-14 230035](https://github.com/user-attachments/assets/cd521130-9525-4830-a04b-2574808e9540)
 

@@ -71,4 +71,5 @@ Wordlist path or brute-force charset/lengths depending on mode
 
 Brute Force Attack:
 ![Hash Cracker Demo](screenshot.png)
+![Screenshot 2025-07-14 230035](https://github.com/user-attachments/assets/9cb2be39-ad3d-480b-b7ac-2d32a265a09e)
 

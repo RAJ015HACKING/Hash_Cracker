@@ -2,36 +2,36 @@
 What is Hash Cracker? 
 Hash Cracker is a custom Python-based security tool designed to crack cryptographic hashes using two popular methods:
  
-🎯Purpose:---
+## 🎯Purpose:---
 
-i. Hash Cracker helps security professionals, ethical hackers, and penetration testers to:
-ii. Recover lost passwords (ethical use only)
-iii. Test the strength of password hashing implementations
-iv. Demonstrate the risk of weak or guessable passwords
-V. Participate in CTF (Capture The Flag) or cybersecurity competitions
+- Hash Cracker helps security professionals, ethical hackers, and penetration testers to:
+- Recover lost passwords (ethical use only)
+- Test the strength of password hashing implementations
+- Demonstrate the risk of weak or guessable passwords
+- Participate in CTF (Capture The Flag) or cybersecurity competitions
 
-🧬 How It Works
+## 🧬 How It Works
 Hash Cracker works by comparing a user-provided hash to the hashes of potential plaintext passwords. If a match is found, it reveals the original password. It supports:
 
-✅ Two Attack Modes
-i.Dictionary Attack (Wordlist Mode):
-    Takes a list of known or likely passwords.
-    Hashes each one.
-    Compares it against the target hash.
-    Efficient if the password is common or reused.
-ii.Brute Force Attack:
-    Tries every possible combination of characters (a-z, A-Z, 0-9, symbols) within a user-specified length range.
-    Much slower but guaranteed to find the password if it exists within the defined character space.
+## ✅ Two Attack Modes
+1. Dictionary Attack (Wordlist Mode):
+    - Takes a list of known or likely passwords.
+    - Hashes each one.
+    - Compares it against the target hash.
+    - Efficient if the password is common or reused.
+2. Brute Force Attack:
+   - Tries every possible combination of characters (a-z, A-Z, 0-9, symbols) within a user-specified length range.
+   - Much slower but guaranteed to find the password if it exists within the defined character space.
 
-🔐 Supported Hash Types
+## 🔐 Supported Hash Types
 Hash Cracker supports all major types available in Python’s hashlib:
-md5
-sha1
-sha224
-sha256
-sha384
-sha512
-sha3_224, sha3_256, sha3_384, sha3_512
+- md5
+- sha1
+- sha224
+- sha256
+- sha384
+- sha512
+- sha3_224, sha3_256, sha3_384, sha3_512
 
 
 ## 🔍 Overview
@@ -58,11 +58,13 @@ This tool is perfect for security researchers, penetration testers, and CTF play
 ## ⚙️ Requirements
 
 Install the required Python modules with:
-bash
+```bash
 pip install tqdm termcolor
-
+```
 Usage:
+```bash
 python hash_cracker.py
+```
 
 Input Prompts:
 Hash to crack: Paste your hash string
